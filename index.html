@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Video Calling App</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script defer src="scripts.js" type="text/javascript"></script>
+	<script defer src="connect.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="video_elements">
+			<video id="local_video" autoplay muted></video>
+			<video id="remote_video" autoplay></video>
+		</div>
+		<div class="video_controls">
+			<button id="start_call" onclick="end_call()">End Call</button>
+			<button id="mute_video">Mute Video</button>
+			<button id="mute_audio">Mute Audio</button>
+		</div>
+	</div>
+</body>
+</html>
